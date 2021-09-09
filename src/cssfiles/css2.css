@@ -1,0 +1,80 @@
+.hero{
+    background-image: url('hero.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    z-index: -1!important;
+    border:0px 50px solid white;
+}
+
+#herotext{
+    color: rgb(255, 203, 140);
+    text-shadow: 3px 4px 5px rgb(71, 67, 67);
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 250px 0px;
+}
+#abtus{
+    padding: 20px;
+    background-color: rgb(243, 88, 88);
+    color: black!important;
+    border:10px solid white;
+}
+#imgstu{
+    width:97%!important;
+}
+#abtus_head{
+    display:flex!important;
+    justify-content: space-between!important;
+    padding: 50px;
+}
+#abtus_head div{
+    margin: 0px 30px;
+}
+#imgstu{
+    border: 2px solid black;
+}
+#abtus h1,h3,img,#abtus:hover{
+    color: black!important;
+}
+#learnMore{
+    background-color: white!important;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+#learnMore:hover{
+    background-color: black!important;
+    color: white;
+    border-color: white;
+    transition: 0.6s;
+}
+#pattern{
+    border: none;
+    position: relative;
+    width:150px!important;
+    margin-left: 4px;
+}
+
+.chat svg{
+    background-color:black ;
+    color:white;
+    position: relative;
+    border-radius:20%;
+}
+
+@media only screen and (max-width:500px) {
+    
+    #abtus_head h1{
+        font-size: 2rem!important;
+    }
+    
+}
+
+@media only screen and (max-width:800px){
+    #abtus_head{
+        display: block!important;
+    }
+    img{
+        width: 300px;
+    }
+}

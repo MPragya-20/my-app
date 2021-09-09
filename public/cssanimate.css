@@ -1,0 +1,10 @@
+.animation{
+    animation: fade 3s ease-in;
+    background-color: red;
+}
+@keyframes fade{
+    0%{
+        opacity: 0;
+    }
+    
+}

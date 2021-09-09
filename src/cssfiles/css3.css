@@ -1,0 +1,165 @@
+.fixedimage{
+    background-image: url('pic1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed!important;
+    z-index: -3!important;
+    top: -5px!important;
+    width: 100%!important;
+    height: 100%!important;
+    border:5px 10px!important;
+    border-color: white!important;
+}
+
+.next1{
+    z-index: -4!important;
+    height: 40px!important;
+
+}
+.next h1{
+    font-family: 'Cookie';
+    color: #ff5937;
+    padding-top: 40px;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px white;
+    font-size: 3rem;
+}
+.next h2{
+    font-family: 'Anton';
+    color: #E8B917;
+    font-style: italic;
+    padding-top: 40px;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px white;
+    letter-spacing: 0.6rem;
+}
+.next svg{
+    color: aliceblue;
+}
+#button{
+    background-image: linear-gradient(90deg, blue,red);
+    opacity: 0.8;
+    border-radius: 25px;
+    width: 250px;
+    padding:15px 6px;
+    color: white;
+    font-size: smaller;
+    display: static !important;
+}
+#button:hover{
+    background-image: linear-gradient(orangered, orangered);
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: none!important;
+}
+.journey{
+    background-image: url('pic2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+    height: 380px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-left: 130px;
+    border: 10px solid white;
+}
+.journey p{
+    color: #ff5937;
+    font-size: 28px;
+    letter-spacing: 0.5;
+    font-family: sans-serif;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.div11{
+    background-color: #d8053f;
+    padding: 60px;
+    font-size:15px;
+}
+
+.div11 h2{
+    color: white;
+}
+.div11 div{
+    background-color: black;
+    width:120px;
+    color: white;
+    border-radius: 16px;
+    padding:  5px;
+}
+.images{
+    width: 100%;
+    height: auto;
+    border: none;
+}
+.explore-btn:hover{
+    background-color: #ff5937;
+}
+.testimonials{
+    display: none!important;
+    background-color: white!important;
+}
+.testimonial-header{
+    display: none!important;
+}
+@media only screen and (min-width:1000px){
+    .exploredivs{
+        display:flex!important;
+        justify-content: center!important;
+    }
+    .fullben{
+        display: flex!important;
+        justify-content: space-between!important;
+    }
+    .fullben div{
+        margin-left: 50px!important;
+    }
+    .testimonials{
+        display: flex!important;
+        background-color: white!important;
+        justify-content: center!important;
+    }
+    .testimonial-header{
+        display: contents!important;
+    }
+}
+.contents{
+    font-family: sans-serif;
+}
+.contents p{
+    font-family: serif;
+    font-size: 16px;
+}
+.fullben{
+    display: block;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.svg-benefits{
+    margin-top: 30px;
+}
+svg:hover{
+    color: black!important;
+}
+#heading-ben{
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    padding: 15px;
+   
+}
+.testimonial-header{
+    text-align: center!important;
+    color:#e21c21;
+    font-size: 52px;
+    font-family: serif;
+}
+
+.carousel-caption h3{
+    color: white!important;
+}
