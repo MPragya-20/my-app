@@ -1,11 +1,7 @@
 # my-app
 This website is a sample website created for self project requirement purpose provided by TEN (The Entrepreneurship Network ).
-I have used React Js to create this website design.
 I included most of the features (front-end only)!
 
-I used components, props, and hooks concepts in several areas of my project.
 
-I also tried to keep the code as clean as possible.
-
-Last but not the least, I will be trying to add new features and will also try to improvise the code in the coming days.
 Thanks for staying with me till here :)
+Click to view -> https://mpragya-20.github.io/my-app/
